@@ -1,0 +1,155 @@
+= %%{{{ class="brush:vba" =
+{{{
+Sub 人社局提取电话号码() '    提取出来的格式为：姓名 手机 所在科室 座机号
+    Dim sheet1_row, sheet1_col, sheet2_row As Integer
+    Dim keshi, zuoji As String
+
+    sheet1_row = 3  '表1行变量
+    sheet1_col = 1
+    sheet2_row = 2  '表2行变量
+
+    While sheet1_col < 17
+        While sheet1_row < 60
+            If Sheet1.Cells(sheet1_row, sheet1_col) = "" Then
+                sheet1_row = sheet1_row + 1
+
+            ElseIf Sheet1.Cells(sheet1_row, sheet1_col) <> "" And Sheet1.Cells(sheet1_row, sheet1_col + 1) = "" And Sheet1.Cells(sheet1_row, sheet1_col + 2) = "" Then
+                keshi = Sheet1.Cells(sheet1_row, sheet1_col)
+                zuoji = Sheet1.Cells(sheet1_row + 1, sheet1_col + 1)
+                sheet1_row = sheet1_row + 1
+            Else
+                Sheet2.Cells(sheet2_row, 1) = Sheet1.Cells(sheet1_row, sheet1_col)
+                Sheet2.Cells(sheet2_row, 2) = Sheet1.Cells(sheet1_row, sheet1_col + 2)
+                Sheet2.Cells(sheet2_row, 3) = keshi
+
+                If Sheet1.Cells(sheet1_row, sheet1_col + 1) <> "" Then '如果当前职工对应的座机号不为空，那莫他的座机就是当前号码，同时应该更新本科室后面人员所对应的座机号，因为第一个座机号是科室领导用的
+                    Sheet2.Cells(sheet2_row, 4) = Sheet1.Cells(sheet1_row, sheet1_col + 1)
+                    zuoji = Sheet1.Cells(sheet1_row, sheet1_col + 1)
+                Else
+                    Sheet2.Cells(sheet2_row, 4) = zuoji
+                End If
+
+                sheet1_row = sheet1_row + 1
+                sheet2_row = sheet2_row + 1
+            End If
+
+        Wend
+        sheet1_row = 3 '完成三列合并列 析取数据后，表1行变量应该变为1从上往下走
+        sheet1_col = sheet1_col + 3 '表1列变量完成一次析取后跳到新的姓名列开始析取
+    Wend
+End Sub
+}}}
+{{{
+Function KillSpace(Expression) '删除所有大空格和小空格
+Dim tmpS
+For i = 1 To Len(Expression)
+tmpT = Mid(Expression, i, 1)
+If tmpT <> " " And tmpT <> "　" Then tmpS = tmpS & tmpT
+Next i
+KillSpace = tmpS
+End Function
+Function killpart(str As String)
+Dim i As Integer
+Dim containter As String
+Dim tmpS As String
+Dim ia1 As String
+Dim ib1 As String
+i = 1
+While i <= Len(str)
+    tmpS = Mid(str, i, 1)
+    If tmpS <> " " And tmp <> "　" Then
+    containter = containter & tmpS
+      If i > 1 Then
+         ia1 = Mid(str, i + 1, 1)
+         ib1 = Mid(str, i - 1, 1)
+         
+            If ia1 = " " And ib1 = " " Or ib1 = "　" Or ia1 = "　" Then '全部取and会导致满足前两个不满足后一个，跳开循环
+               i = i + 1 'm[i]当前已经为非空值，递增后提交给下面的循环才能起作用
+               While (Mid(str, i, 1) = " ")  'And Mid(str, i, 1) = "　"
+               i = i + 1
+               Wend
+               tmpS = Mid(str, i, 1)
+               containter = containter & tmpS
+            End If
+        End If
+         
+        
+       If i = 1 Then '排除第一个名字就为两个字的名字
+              ia1 = Mid(str, i + 1, 1)
+              
+            If ia1 = " " Or ia1 = "　" Then
+               i = i + 1
+               While (Mid(str, i, 1) = " ")  'or Mid(str, i, 1) = "　"这句可能有用
+               i = i + 1
+               Wend
+               tmpS = Mid(str, i, 1)
+               containter = containter & tmpS
+            End If
+            
+        End If
+  
+    Else
+    containter = containter & tmpS
+    End If
+    i = i + 1
+Wend
+killpart = containter
+End Function
+
+Sub kill()
+Dim i As Integer
+i = 1
+While i <= 13
+Sheet1.Range("a" & i) = killpart(Sheet1.Range("a" & i))
+i = i + 1
+Wend
+'Sheet1.Range("a1") = killpart(Sheet1.Range("a1"))
+End Sub
+Sub slt() '去掉数据中所有空格
+Dim i As Integer
+i = 1
+While i <= 20
+Sheet2.Range("a" & i) = KillSpace(Sheet2.Range("a" & i))
+i = i + 1
+Wend
+End Sub
+Sub separate()
+Dim i As Integer
+Dim j As Integer
+Dim k As Integer
+Dim str As String
+Dim stmp As String
+Dim container As String
+Dim shindex As Integer
+shindex = 1
+k = 1
+i = 1
+j = 1
+While shindex < 3
+While k < 20
+    str = Sheets("sheet" & shindex).Range("a" & k)
+    
+    While i <= Len(str)
+    
+      While (Mid(str, i, 1) <> "、" And i <= Len(str))
+       stmp = Mid(str, i, 1)
+       container = container & stmp
+       i = i + 1
+      Wend
+      
+      Sheets("sheet" & shindex).Range("b" & j) = container
+      j = j + 1
+      container = ""
+      stmp = ""
+      i = i + 1
+    Wend
+      
+    i = 1 '跳出内循环i必须reset
+    k = k + 1
+Wend
+j = 1
+k = 1 '退出循环变量归零
+shindex = shindex + 1
+Wend
+End Sub
+}}}

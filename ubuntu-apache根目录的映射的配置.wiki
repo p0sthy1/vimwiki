@@ -1,0 +1,4 @@
+
+直接编辑/etc/apache2/sites-available/000default.conf,
+将DocumentRoot设置为新路径，同时将Directory节点也改为新路径。
+然后重启Web Server：sudo /etc/init.d/apache2 restart

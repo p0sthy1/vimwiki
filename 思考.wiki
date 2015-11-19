@@ -1,0 +1,4 @@
+1、我写的main.c文件中，如果要引用bill这个函数，但是我没有在main.c中加入bill声明的头文件,在编译地时候
+    我使用gcc -c  main.c bill.c
+          gcc -o main main.o bill.o,就能生成main执行文件，而且可执行，这其中到底有什么猫腻，为什么没有头文件，也能通过连接:
+

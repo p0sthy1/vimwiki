@@ -1,0 +1,5 @@
+
+修改表结构，增加行<br>
+ALTER TABLE `gwycf`.`info` ADD COLUMN `idno` VARCHAR(18) NOT NULL;<br>
+无重复select<br>
+select distinct .. from<br>

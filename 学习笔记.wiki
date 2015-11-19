@@ -1,0 +1,7 @@
+== [[linux命令之乐]] ==
+== [[phpmyadmin]] 提示缺少mcrpypt ==
+== [[apache]] ==
+== [[MySQL]] ==
+== [[vim配置]] ==
+== [[BeginingLinuxProgram]] == 
+== [[vba代码备份]] ==

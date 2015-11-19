@@ -1,0 +1,19 @@
+# 创建版本库
+  - 在要建版本库的目录 
+  - git init
+# 提交分两步走
+  - git add filename
+  - git commit -m "save log"
+  - *add先将文件修改从工作区提交到.git的stage里面,可以从git status查看到，commit提交后写入版本库*  
+# git diff filename *查看最近两个版本之间的差异*
+# git status查看工作区的状态,有疑问使用git diff查改动 
+# git log *查看历史记录*
+# git log --pretty=oneline *历史记录只在一行显示其中包括提交版本号*
+# 回退版本 HEAD是当前版本 上一版本是HEAD^ 上上HEAD^^ HEAD~100
+  - git reset --hard HEAD^ 回退到上一版本
+# git reflog 可以查看到所有提交命令 只要找到相应提交版本号，就能向前或向后变更
+  -git reset --hard VersionNo
+# git checkout -- filename 让文件回到上一次add或者是commit的版本  
+  - --是切换到另外一个分支
+# git checkout -- 将版本库中的版本拿出来checkout覆盖当前工作区的文件
+# git rm 用于删除文件

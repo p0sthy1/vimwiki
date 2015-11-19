@@ -1,0 +1,15 @@
+{{{class="brush:sql"
+CREATE TABLE `gwycf`.`info` (
+`name` VARCHAR(45) NULL,
+`kaohao` VARCHAR(45) NOT NULL,
+`epost` VARCHAR(80) NULL,
+`ecode` VARCHAR(45) NULL,
+`xingce` DECIMAL(4,1) NULL,
+`shenlun` DECIMAL(4,1) NULL,
+`jiafen` DECIMAL(4,1) NULL,
+`zongfen` DECIMAL(4,1) NULL,
+`rank` VARCHAR(45) NULL,
+PRIMARY KEY (`kaohao`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4;
+}}}

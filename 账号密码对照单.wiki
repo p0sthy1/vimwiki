@@ -1,0 +1,9 @@
+| 站点            | 用户名       | 密码     | 注册邮箱          |
+|-----------------|--------------|----------|-------------------|
+| github          | ourzizz      | While(1) | 552716481@qq.com  |
+| taobao          | ourzizz      | ---      | 552716481@qq.com  |
+| facebook        | ourzizz      | ES2JTKHV | ourzizz@gmail.com |
+| 唯品会          | ourzizz      | While(1) | 552716481@qq.com  |
+| 新浪微博        | 陈六一放暑假 | ES2JTKHV | 552716481@qq.com  |
+| dianfeijiuzhong | 5000276522   |          |                   |
+
