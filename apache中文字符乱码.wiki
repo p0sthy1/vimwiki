@@ -1,0 +1,4 @@
+    * Linux平台/etc/apache2/apache2.conf
+    加入 AddDefaultCharset UTF-8
+    * windows apache\conf\httpd.conf
+    加入 AddDefaultCharset UTF-8

@@ -7,3 +7,4 @@
 * *canonical*      权威的,经典的
 * *toggle*         转换键
 * *decorate*       装饰  
+* *merge*          融入融合
