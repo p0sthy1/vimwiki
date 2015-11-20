@@ -9,7 +9,7 @@
 # git status查看工作区的状态,有疑问使用git diff查改动 
 # git log *查看历史记录*
 # git log --pretty=oneline *历史记录只在一行显示其中包括提交版本号*
-# 回退版本 HEAD是当前版本 上一版本是HEAD^ 上上HEAD^^ HEAD~100
+# 回退版本 HEAD是当前版本 上一版本是HEAD^ \上上HEAD^^ HEAD~100
   - git reset --hard HEAD^ 回退到上一版本
 # git reflog 可以查看到所有提交命令 只要找到相应提交版本号，就能向前或向后变更
   -git reset --hard VersionNo
@@ -17,3 +17,9 @@
   - --是切换到另外一个分支
 # git checkout -- 将版本库中的版本拿出来checkout覆盖当前工作区的文件
 # git rm 用于删除文件
+# git push origin master 将本地分支提交服务器
+# git checkout -b dev 新建dev分支并且切换到dev
+# git branch dev
+# git checkout dev
+# git merge dev
+# git branch -d dev 删除dev分支

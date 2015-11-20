@@ -1,2 +1,4 @@
 * [[ubuntu-apache根目录的映射的配置]]
 * [[apache中文字符乱码]]
+* [[phpmyadmin]] 提示缺少mcrpypt
+* [[启动停止服务]]
