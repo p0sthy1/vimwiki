@@ -1,0 +1,12 @@
+
+需求分析，在外网随时监控家中动静<br>
+原料：花生棒，树莓派，usb摄像头<br>
+涉及到的技术：http://blog.chinaunix.net/uid-11344913-id-4304172.html 使用rtmp服务器来制作，最近由于装房子手头紧，只能将要用到的技术和工具列举下，等事情办完了，就开始施工<br>
+先在ubuntu上做实验成功了<br>
+参考：http://blog.catscarlet.com/201311131578.html；http://tieba.baidu.com/p/2708628059。下载链接svn co https://svn.code.sf.net/p/mjpg-streamer/code/mjpg-streamer<br>
+然后跟着教程做安装，安装过程等实际做到树莓派上的时候再写<br>
+有用的命令，编译安装成功后如果不现实图像，看看命令后面是不是有错误提示，例如UVCIOC_CTRL_ADD – Error: Inappropriate ioctl for device<br>
+如果有则加入-y -n选项例如sudo ./mjpg_streamer -i “./input_uvc.so -y -n” -o “./output_http.so -p 8089 -w ./www”<br>
+{{{
+sudo ./mjpg_streamer -i “./input_uvc.so -y -n” -o “./output_http.so -p 8089 -w ./www”
+}}}
