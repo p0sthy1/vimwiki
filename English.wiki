@@ -10,3 +10,6 @@
 * *merge*          融入融合
 * *mutable*        易变的，性情不定的 
 * *transclusion*   嵌入包含
+* *particular*     特别的，特殊的  
+* *emphasis*       强调着重
+* *principle*      原则、准则、原理
