@@ -24,3 +24,18 @@
 # git merge dev
 # git branch -d dev 删除dev分支
 # 如果git命令不能自动补齐参考https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks
+ 
+stash命令封存现场流程为
+    git stash->.....干了很多活儿后....->stash list查看当前有哪些封存->stash pop签出现场并删除封存
+fork分支工作合并总结
+    co master 签出主线
+    co -b *** 从当前主线上分支,并且在分支***上干活
+    ------------------------------干了很多活儿后-------------------------
+    co master 再次签出主线
+    merge --no--ff -m 进行快速合并
+    br -d *** 删除支线
+
+
+
+
+
