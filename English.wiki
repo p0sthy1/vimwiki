@@ -14,3 +14,4 @@
 * *emphasis*       强调着重
 * *principle*      原则、准则、原理
 * *switch*      aaa
+* *origin*         原点、起源
