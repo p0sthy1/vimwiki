@@ -9,6 +9,6 @@
   *  --color=auto ：可以将找到的关键词部分加上颜色的显示喔！
 
 # grep进阶
-  [[*]]  grep [-A] [-B] 'rgexstring' filename
+  *  grep [-A] [-B] 'rgexstring' filename
   *  -A ：后面可加数字，为 after 的意思，除了列出该行外，后续的 n 行也列出来；
   *  -B ：后面可加数字，为 befer 的意思，除了列出该行外，前面的 n 行也列出来；

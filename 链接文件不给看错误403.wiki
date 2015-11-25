@@ -1,0 +1,8 @@
+参考地址 http://blog.iworm.net/2011/03/13/apache%E8%AE%BF%E9%97%AEhome%E7%9B%AE%E5%BD%95%E9%94%99%E8%AF%AF%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/comment-page-1/#comment-25255
+* 学到的知识，不能访问首先查看apache.conf文件 目录<Directoy> 
+* 到/var/log/apapche/error.log 看到错误信息
+    [Wed Nov 25 10:26:41.994629 2015] [core:error] [pid 4789] [client 192.168.1.101:59019] AH00037: Symbolic link not allowed or link target not accessible: /var/www/html/wiki
+* 我连vimwiki的权限都改成了777还是不能访问，怀疑不是权限问题
+* 兜兜转转找到一篇博文 用lamei命令查看各个目录层级的权限
+* 才发现不是wiki目录权限出问题，是用户主目录权限不给看 drwx------ chenhai
+* chmod 711 /home/chenhai 终于解决
