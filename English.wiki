@@ -1,6 +1,6 @@
-* interpret      解释；理解；口译；诠释；体现
-* acquired       后天的，通过学习获得的
-* overhaul       大修，全面检查
+* *interpret*      解释；理解；口译；诠释；体现
+* *acquired*       后天的，通过学习获得的
+* *overhaul*       大修，全面检查
 * cascade        串联
 * exactly        准确，恰恰，到底是
 * *proportional*   比例的，相称的，均衡的
@@ -15,3 +15,4 @@
 * *principle*      原则、准则、原理
 * *switch*      aaa
 * *origin*         原点、起源
+* *filter*         过滤

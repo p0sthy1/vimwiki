@@ -1,5 +1,5 @@
 * [[github]]
 * [[grep正则]]
 * [[sed]]
-* awk
+* [[printf awk]]
 * rcs
