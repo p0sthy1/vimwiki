@@ -3,3 +3,4 @@
 * [[sed]]
 * [[printf awk]]
 * rcs
+* [[u盘的挂载]]

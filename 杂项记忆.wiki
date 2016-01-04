@@ -1,5 +1,3 @@
 == [[有用的链接]] ==
 == [[账号密码对照单]] ==
-http://www.bubuko.com/infodetail-975617.html
-http://blog.csdn.net/bboxhe/article/details/46849167 csdn centos安装ycm
-
+exception: "java.net.SocketException:socket failed:Eacces (permission denied)"

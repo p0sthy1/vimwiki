@@ -1,5 +1,13 @@
-* http://gzbj.lss.gov.cn/ 局网站
-* http://wiki.ktmud.com/tips/Vim.html|vim配置vimwiki博客
-* http://www.alemao.cn 
-* http://www.bjqixingguan.gov.cn/ 七星关区网站
-* http://www.gzpta.gov.cn/ 贵州人事考试网
+* http://gzbj.lss.gov.c |局网站 
+* [[http://wiki.ktmud.com/tips/Vim.html | vim配置vimwiki博客]]
+* [[http://www.bjqixingguan.gov.cn/ |七星关区网站]] 
+* [[http://www.gzpta.gov.cn/ | 贵州人事考试网]]
+* [[http://192.168.15.109:8080/ | 无纸化学习]]
+* http://www.feiesoft.com/vba/excel/xlobjautofilter.htm vba筛选
+* http://club.excelhome.net/thread-773876-1-1.html 获取可视区域
+* [[http://hukai.me/android-training-course-in-chinese/ |andriod 中文教程]]
+* [[http://developer.android.com/training/basics/activity-lifecycle/starting.html |英文教程]]
+* [[http://blog.chinaunix.net/uid-25422700-id-368672.html | android发短信]]
+* [[http://blog.csdn.net/wangjia55/article/details/7916429 | Android 读取工程中的txt文档]]
+* [[http://codelab.qpython.org/qpythoncodelab/1st-qpython-app-for-android.html | Qpaython]]
+* [[http://myclover.iteye.com/blog/1035957 |android模拟器上网]]

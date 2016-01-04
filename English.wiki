@@ -16,3 +16,17 @@
 * *switch*      aaa
 * *origin*         原点、起源
 * *filter*         过滤
+* fundamental    基本的重要的
+* characteristics 特征
+* collection     采集，征收
+* responds       回应
+* consume       消费,消耗
+* value         价值
+* valuable      珍贵的
+* rotates       旋转
+* landscape     景观，横向
+* portrait orientation 纵向
+* obscured      模糊
+* transparent   透明
+* transient     暂时的
+* manipulate    操作，操纵

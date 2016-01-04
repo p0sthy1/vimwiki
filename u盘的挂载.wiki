@@ -1,0 +1,33 @@
+ktop不能自动挂载U盘。这个时候需要一些命令：
+1.在插入U盘前和插入U盘后，都输入同一个命令，检查多了哪个盘
+cat /proc/partitions
+这里我发现多了
+   8       16    7827424 sdb
+      8       17    7825423 sdb1
+
+      sdb是统称，所以新插入的U盘就是/dev/sdb1
+
+      2.用命令检查新的U盘的文件系统格式
+      root@ www.linuxidc.com :/# fdisk -l /dev/sdb
+
+      Disk /dev/sdb: 8015 MB, 8015282176 bytes
+      247 heads, 62 sectors/track, 1022 cylinders, total 15654848 sectors
+      Units = sectors of 1 * 512 = 512 bytes
+      Sector size (logical/physical): 512 bytes / 512 bytes
+      I/O size (minimum/optimal): 512 bytes / 512 bytes
+      Disk identifier: 0x0001fce0
+
+         Device Boot      Start         End      Blocks   Id  System
+         /dev/sdb1   *          62    15650907     7825423    c  W95 FAT32 (LBA)
+
+         看到这里是FAT32格式。
+
+         3.mount
+         mount -t vfat /dev/sdb1 /media/usb
+
+         注意: 
+         mount -t 按两次tab键会提示输入什么文件系统类型
+         /media/usb是我自己创建的目录
+
+         4.umount
+         umount /media/usb
