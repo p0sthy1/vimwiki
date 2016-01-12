@@ -1,4 +1,4 @@
-* http://gzbj.lss.gov.c |局网站 
+* [[http://gzbj.lss.gov.cn |局网站]]
 * [[http://wiki.ktmud.com/tips/Vim.html | vim配置vimwiki博客]]
 * [[http://www.bjqixingguan.gov.cn/ |七星关区网站]] 
 * [[http://www.gzpta.gov.cn/ | 贵州人事考试网]]
