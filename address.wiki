@@ -1,26 +1,22 @@
-* 人社厅网上报名系统后台地址：http://www.gzpta.gov.cn/bmv2_24/webmanage/
-* 
-* 公文发布地址
-* http://gzpub.lss.gov.cn/assetmanager/startPage.jsp
+| 站点名称                                                                   | 账号       | 密码1      | 密码2 |   |
+|----------------------------------------------------------------------------|------------|------------|-------|---|
+| [[http://www.gzpta.gov.cn/bmv2_24/webmanage/ |人社厅网上报名系统后台地址]] |            |            |       |   |
+| [[http://gzpub.lss.gov.cn/assetmanager/startPage.jsp | 公文发布地址  ]]    |            |            |       |   |
+| [[http://172.31.0.2/seeyon/index.jsp |协同办公平台地址：]]                 | gzbj-admin | 123456     |       |   |
+| [[ftp://222.85.150.94 | FTP地址]]                                          | 24kszx     | BiQMfgWMra |       |   |
+
+ 
+
 * 219.151.4.99
-* FTP地址:  ftp://222.85.150.94
-* 用户名：24kszx
-* 密码：BiQMfgWMra
-* 
-* 协同办公平台地址：
-* http://172.31.0.2/seeyon/index.jsp
+
 * 单位 用户名：gzbj-admin  密码：123456
 * 
 * 个人 gzbjgeronghua 123456
 * 印章密码：123456@
 * 
-* 
-* 
 * 新版计算机报名管理员后台地址：http://172.31.0.202/websignadmin_52/login.aspx
 * 先上VPN后，再打开这个网站。
 * 考生前台报名地址 http://bm.cpta.com.cn/websign_52/
-* 
-* 
 * 
 * 8222949宽带785467785
 *            hkyfpsds 
@@ -37,8 +33,6 @@
 * 5224admin01
 * rswbADMIN
 * 
-* 
-* 
 * 商户号:	808080201301675
 * 操作员号:bj2401	
 * 密码:bj2401gzbj
@@ -53,18 +47,12 @@
 * 用户名：sysadm
 * 密码：888888
 * 
-* 
-* 
 * 银联对账登录界面：http://apps.chinapay.com/cpeduconsole/
 * 
 * 商户号:	808080201301675
 * 操作员号:bj2401	
 * 密码:bj2401gzbj
-* 密码:bj2401gzbj1{1}
-* bj123gzbj
-* bj321gzbj
-* 
-* 
+* 密码:bj2401gzbj1{3}
 * 
 * * 计算机对账：
 * 登录网址;http://apps.chinapay.com/cpeduconsole/
@@ -73,4 +61,4 @@
 * 808080430002819
 * 操作员：520801/520802
 * 密码：bj2401gzbj
-* 
+

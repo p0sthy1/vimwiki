@@ -2,5 +2,6 @@
 * [[grep正则]]
 * [[sed]]
 * [[printf awk]]
-* rcs
 * [[u盘的挂载]]
+* [[diff]]
+* [[awk]]

@@ -1,0 +1,4 @@
+diff [-bBi] from-file to-file
+-b :忽略空白区别
+-B :忽略空白行
+-i :忽略大小写
