@@ -7,7 +7,9 @@
 | 报名后台                                                           | http://zg.cpta.com.cn/examadmin/       | 5224admin02 | rswbADMIN       |
 | [[http://zg.cpta.com.cn/examfront/register/login2j.jsp| 报名地址]] |                                        | 13308570523 | While(1)        |
 | 经济师、职称外语银联对账地址：                                     | http://apps.chinapay.com/cpeduconsole/ |             | 808080201301675 |
-| 指导文件                                                           | http://www.gzpta.gov.cn/b.aspx?a=77086 |             |                 |
+| 外语考试指导文件                                                   | http://www.gzpta.gov.cn/b.aspx?a=77086 |             |                 |
+| 2015年经济师指导文件                                               | http://www.gzpta.gov.cn/b.aspx?a=76916 |             |                 |
+
 
 === [[经济师外语考试考务工作准备材料]] ===
 === [[经济师外语考试对账]] ===
