@@ -6,4 +6,4 @@
 * [[diff]]
 * [[awk]]
 * [[sort]]
-*
+* http://www.cnblogs.com/orez88/articles/1874594.html xargs用法
