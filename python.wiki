@@ -1,0 +1,3 @@
+安装splinter
+xlrd
+cd 到安装目录，直接python setup.set install
