@@ -1,18 +1,22 @@
-| 站点                                                           | 用户名                  | 密码       | 注册邮箱          |
-|----------------------------------------------------------------|-------------------------|------------|-------------------|
-| github                                                         | ourzizz                 | While(1)   | 552716481@qq.com  |
-| taobao                                                         | ourzizz                 | ---        | 552716481@qq.com  |
-| facebook                                                       | ourzizz                 | ES2JTKHV   | ourzizz@gmail.com |
-| 唯品会                                                         | ourzizz                 | While(1)   | 552716481@qq.com  |
-| 新浪微博                                                       | 552716481@qq.com        | ES2JTKHV   | 552716481@qq.com  |
-| 电费                                                           | 5000276522              |            |                   |
-| 阿里云                                                         | ourzizz                 | ES2JTKHV   | ourzizz@163.com   |
-| 联通宽带                                                       | 085700604225            | 5224011    | ourzizz@163.com   |
-| [[http://www.21wecan.com/index2.html |中国卫生人才网首页]]     |                         | While(1)   | 552716481@qq.com  |
-| 建行工资卡                                                     | 6236687140000726297     |            |                   |
-| 计算机xp                                                       | 20633122427557866722178 | da         |                   |
-| 计算机xp                                                       | 28397009000174127520681 | my         |                   |
-| [[http://119.254.106.101/prerkks/mainFrame.jsp |计算机软考Kj]] | 552716481@qq.com        | chenhai123 | 552716481@qq.com  |
+| 站点                                                           | 用户名                  | 密码            | 注册邮箱          |
+|----------------------------------------------------------------|-------------------------|-----------------|-------------------|
+| github                                                         | ourzizz                 | While(1)        | 552716481@qq.com  |
+| taobao                                                         | ourzizz                 | ---             | 552716481@qq.com  |
+| facebook                                                       | ourzizz                 | ES2JTKHV        | ourzizz@gmail.com |
+| 唯品会                                                         | ourzizz                 | While(1)        | 552716481@qq.com  |
+| 新浪微博                                                       | 552716481@qq.com        | ES2JTKHV        | 552716481@qq.com  |
+| 电费                                                           | 5000276522              |                 |                   |
+| 阿里云                                                         | ourzizz                 | ES2JTKHV        | ourzizz@163.com   |
+| 联通宽带                                                       | 085700604225            | 5224011         | ourzizz@163.com   |
+| [[http://www.21wecan.com/index2.html |中国卫生人才网首页]]     |                         | While(1)        | 552716481@qq.com  |
+| 建行工资卡                                                     | 6236687140000726297     |                 |                   |
+| 计算机xp                                                       | 20633122427557866722178 | da              |                   |
+| 计算机xp                                                       | 28397009000174127520681 | my              |                   |
+| [[http://119.254.106.101/prerkks/mainFrame.jsp |计算机软考Kj]] | 552716481@qq.com        | chenhai123      | 552716481@qq.com  |
+| Constructionpwd                                                | ES2JTKHV-U              | While(1)-newpwd |                   |
+| sqlserver                                                      | sa                      | sa              |                   |
+| aliyun                                                         | 552716481@qq.com        | ES2JTKHV        | 552716481@qq.com  |
+|                                                                |                         |                 |                   |
 
 
 您的注册码：20649161186551135352194

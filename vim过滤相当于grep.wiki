@@ -1,0 +1,6 @@
+:v/partern/d
+将不匹配的行删除掉
+!{motion}{filter}
+例子：!3jsort 表示从当前光标下移3行的范围用sort排序
+或者可以使用V可视模式选中后!sort
+

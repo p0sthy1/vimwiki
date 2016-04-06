@@ -26,4 +26,18 @@ function 有底下这些咚咚：
 /sbin/ifconfig eth0 | grep 'inet addr' | \
 >  sed 's/^.*addr://g' | sed 's/Bcast.*$//g'
 }}}
+
 eth0网卡上的数据逐步操作后，得到ip地址
+
+http://coolshell.cn/articles/9104.html
+以上这些都是小儿科，下面进步一点
+{{{
+
+sed "3,6s/A/B/g" file
+将3-6行的A替换成b和vi差不多
+sed "s/A/B/3" file
+替换每一行中第三个A为B
+sed "s/A/B/3g" file
+替换每一行中第三个后的A
+
+}}}
