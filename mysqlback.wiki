@@ -1,1 +1,3 @@
-mysqldump gwycf -u root -p --add-drop-table|mysql -h 192.168.1.10 gwycf1 -u root -p123123
+# mysqldump gwycf -u root -p --add-drop-table|mysql -h 192.168.1.10 gwycf1 -u root -p123123 将本地数据库gwycf 备份到192.168.1.10 
+# mysqldump -h localhost -u root -p123456 gwycf > ./gwycf2016.sql 将mysql中的gwycf备份为gwycf2016.sql
+# mysqldump -h localhost -u root -p123456 gwycf < ./gwycf2016.sql  通过sql文件还原数据库,没成功，用>source /path/**.sql 就能运行

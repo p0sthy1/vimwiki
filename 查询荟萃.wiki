@@ -1,0 +1,9 @@
+`公务员查分，查询成绩表和职位表招考人数确定是都进入面试`
+{{{
+SELECT info . * , epost.zkrs *3
+FROM gwycf.info, gwycf.epost
+WHERE info.epost = epost.epostname
+AND info.ecode = epost.ecode
+AND info.rank <= epost.zkrs *3
+AND info.rank >0;
+}}}
